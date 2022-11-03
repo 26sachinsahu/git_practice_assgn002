@@ -1,7 +1,9 @@
-//function check if a No. is prime or not
 function checkprime(num){
 let counter=0;
-for(i=1;i<=num;i++);
+
+for(i=1;i<=num;i++){
+
+
 if(num%i==0){
 	counter++;
 	}
@@ -16,7 +18,4 @@ if(ans==true){
 console.log("Prime")
 }else{
 console.log("Not a Prime")
-}
 
-
-  
